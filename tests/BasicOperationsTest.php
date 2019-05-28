@@ -1,5 +1,6 @@
 <?php
 
+    require_once('src/BasicOperations.php');
     use Calculator\BasicOperations;
 
     class BasicOperationsTest extends PHPUnit_Framework_TestCase
