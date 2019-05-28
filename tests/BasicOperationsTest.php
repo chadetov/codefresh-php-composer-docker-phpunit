@@ -1,18 +1,18 @@
 <?php
-use Calculator\BasicOpertaions;
+use Calculator\BasicOperations;
 
-class BasicOpertaionsTest extends PHPUnit_Framework_TestCase
+class BasicOperationsTest extends PHPUnit_Framework_TestCase
 {
 	/**
-     * @dataProvider additionProvider
+     * @dataProvider additionDataProvider
      */
     public function testAdd($a, $b, $expected)
     {
-    	$bo = new BasicOpertaions;
+    	$bo = new BasicOperations;
         $this->assertSame($expected, $bo->sum($a, $b));
     }
 
-    public function additionProvider()
+    public function additionDataProvider()
     {
         return [
             'adding zeros'  => [0, 0, 0],
