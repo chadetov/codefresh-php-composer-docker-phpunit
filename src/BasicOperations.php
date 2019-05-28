@@ -1,13 +1,13 @@
 <?php
 
-namespace Calculator;
+	namespace Calculator;
 
-class BasicOperations{
+	class BasicOperations{
 
-    public function sum($a, $b){
-        return $a+$b;
-    }
+	    public function sum($a, $b){
+	        return $a+$b;
+	    }
 
-}
+	}
 
 ?>
