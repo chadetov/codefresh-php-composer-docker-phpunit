@@ -1,6 +1,5 @@
 <?php
 
-    require_once('src/BasicOperations.php');
     use Calculator\BasicOperations;
 
     class BasicOperationsTest extends PHPUnit_Framework_TestCase
@@ -10,8 +9,8 @@
          */
         public function testAdd($a, $b, $expected)
         {
-        	// $bo = new BasicOperations;
-         //    $this->assertSame($expected, $bo->sum($a, $b));
+        	$bo = new BasicOperations;
+             $this->assertSame($expected, $bo->sum($a, $b));
         }
 
         public function additionDataProvider()
