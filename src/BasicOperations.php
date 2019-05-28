@@ -4,7 +4,7 @@ namespace Calculator;
 
 class BasicOperations{
 
-    public function addition($a, $b){
+    public function sum($a, $b){
         return $a+$b;
     }
 
