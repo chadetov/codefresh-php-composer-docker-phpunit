@@ -1,5 +1,16 @@
 {
+
+    "name": "chadetov/codefresh-php-composer-docker-phpunit",
+    "description": "Codefresh PHP Composer Docker PHPUnit Project",
+    "authors": [
+        {
+            "name": "Onur",
+            "email": "onur@abc.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.3.0",
         "phpunit/phpunit": "4.8.*"
     },
     "autoload": {
