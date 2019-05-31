@@ -34,7 +34,7 @@
              $this->assertSame($expected, $bo->multiply($a, $b));
         }
 
-        public function additionDataProvider()
+        public function multiplyDataProvider()
         {
             return [
                 'adding zeros'  => [0, 0, 0],
